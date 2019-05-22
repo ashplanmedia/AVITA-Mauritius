@@ -24,7 +24,7 @@
                 </div>
             </div>
             
-            <div class="carousel-item">
+    <!---        <div class="carousel-item">
                 <div class="responsive-block">
                     <div class="banner-block responsive-item">
                         <a href="{{ route('product.overview', ['liber12']) }}">
@@ -41,7 +41,7 @@
                     </div>
                 </div>
             </div>
-
+--->
             <div class="carousel-item ">
                 <div class="responsive-block">
                     <div class="banner-block responsive-item  d-flex align-items-center">

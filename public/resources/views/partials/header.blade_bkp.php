@@ -174,6 +174,32 @@
                 @endif
                 </li>
 
+                @if ( count( $supported_languages ) > 1 )
+
+                    @foreach( $supported_languages  as $selected_lang  )
+
+                        @if( $selected_lang != $lang )
+                        <li class="nav-item hidden-sm-down">
+
+                            <a class="" href="{{ route('lang.switch', $selected_lang) }}">
+
+                                @if( $selected_lang == 'tc' )
+                                    中
+                                @elseif ( $selected_lang == 'en')
+                                    ENG
+                                @elseif ( $selected_lang == 'th')
+                                    ภาษาไทย
+                                @elseif ( $selected_lang == 'id')
+                                    Bahasa Indonesia
+                                @else
+                                    {{ $selected_lang }}
+                                @endif
+
+                            </a>
+                        </li>
+                        @endif
+                    @endforeach
+                @endif
 
             </ul>
         </div>

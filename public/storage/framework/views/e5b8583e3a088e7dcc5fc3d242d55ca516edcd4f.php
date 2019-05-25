@@ -65,11 +65,9 @@
 
                 <div class="container">
 
-                    <?php if( $country == 'tw' ): ?>
-                        <div class="h3 section-title mb-3 ls-0">維修中心</div>
-                    <?php else: ?>
+                    
                         <div class="h3 section-title mb-3 ls-0"><?php echo app('translator')->getFromJson('site.support_title_2'); ?></div>
-                    <?php endif; ?>
+                    
 
 
                     <?php $__currentLoopData = $serviceCenters; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $center): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
@@ -124,7 +122,7 @@
 
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyH7LRLn_rALNKkeh2SZx2_NpketEsmGA&callback=initMap"></script>
 
-    <script src="/js/support.js"></script>
+    <script src="../js/support.js"></script>
 
 
 

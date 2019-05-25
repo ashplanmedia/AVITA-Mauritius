@@ -16,13 +16,13 @@ class AppMiddleware
      */
     public function handle($request, Closure $next)
     {
-        $country = $this->handleCountry($request);
+        $country = 'mu';
 
-        if ( $country == 'us') {
+        /*if ( $country == 'us') {
             return redirect('https://avita-americas.com/');
         } else if ( !$country ) {
             return redirect('/hk');
-        }
+        }*/
 
         $this->handleLocale($request);
 
@@ -44,11 +44,6 @@ class AppMiddleware
 
         // Handle Redirect for support
         $endpoint = $request->segment(1);
-
-        if ( $endpoint == 'support' ) {
-            $route = "/$country/support";
-            return redirect("/$country/support");
-        }
 
         return $next($request);
     }
@@ -147,6 +142,7 @@ class AppMiddleware
                 }
 
             case 'sg':  return '| AVITA Singapore Official Website';
+			case 'mu':  return '| AVITA Mauritius Official Website';
             case 'tw':  return '| AVITA 台灣官方網站';
             case 'my':  return '| AVITA Malaysia Official Website';
             case 'th':  return '| AVITA Thailand Official Website';

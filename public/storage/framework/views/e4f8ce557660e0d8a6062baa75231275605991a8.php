@@ -175,33 +175,6 @@
                 <?php endif; ?>
                 </li>
 
-                <?php if( count( $supported_languages ) > 1 ): ?>
-
-                    <?php $__currentLoopData = $supported_languages; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $selected_lang): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
-
-                        <?php if( $selected_lang != $lang ): ?>
-                        <li class="nav-item hidden-sm-down">
-
-                            <a class="" href="<?php echo e(route('lang.switch', $selected_lang)); ?>">
-
-                                <?php if( $selected_lang == 'tc' ): ?>
-                                    中
-                                <?php elseif( $selected_lang == 'en'): ?>
-                                    ENG
-                                <?php elseif( $selected_lang == 'th'): ?>
-                                    ภาษาไทย
-                                <?php elseif( $selected_lang == 'id'): ?>
-                                    Bahasa Indonesia
-                                <?php else: ?>
-                                    <?php echo e($selected_lang); ?>
-
-                                <?php endif; ?>
-
-                            </a>
-                        </li>
-                        <?php endif; ?>
-                    <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
-                <?php endif; ?>
 
             </ul>
         </div>

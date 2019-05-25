@@ -13,7 +13,7 @@ class ProductsController extends Controller
     //
 
     protected function productFromURL( $country, $slug ) {
-
+		$country = 'mu';
         $product = Product::whereCountry($country)->where('short_code', $slug)->first();
 
         // Fallback..
@@ -24,8 +24,8 @@ class ProductsController extends Controller
         return $product;
     }
 
-    public function showProductFeatures($country, $slug) {
-
+    public function showProductFeatures($slug) {
+		$country = 'mu';
         $product = $this->productFromURL($country, $slug);
 		if ( $slug == 'magus12-2in1-laptop' ) {
 			if ( $country == 'sg' ) {
@@ -65,8 +65,9 @@ class ProductsController extends Controller
 		}
     }
 
-    public function showProductSpec($country, $slug) {
-
+    public function showProductSpec( $slug) {
+		echo "ffff"; die;
+		$country = 'mu';
         $product = $this->productFromURL($country, $slug);
 
 
@@ -86,8 +87,8 @@ class ProductsController extends Controller
 		}
     }
 
-    public function showProductSupport(Request $request, $country, $slug) {
-
+    public function showProductSupport(Request $request, $slug) {
+		$country = 'mu';
         $product = $this->productFromURL($country, $slug);
 
         if ( !$product ) {

@@ -25,6 +25,7 @@ return [
         'id' => 'Indonesia',
         'in' => 'India',
         'uk' => 'United Kingdom',
+		'mu' => 'Mauritius',
     ]
 
 ];

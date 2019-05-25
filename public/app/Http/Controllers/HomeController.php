@@ -16,7 +16,7 @@ class HomeController extends Controller
 
     public function redirectToHome( ) {
 
-/*        $country = session('country', 'hk');
+       /* $country = session('country', 'mu');
 
         if ( $country ) {
             return redirect('/'.$country);
@@ -25,10 +25,10 @@ class HomeController extends Controller
         } */
 	return view('home');
 
-    }
+    }	
 
-    public function getHome( $country ){
-
+    public function getHome(){
+		$country = 'mu';
         $supported_countries = array_keys( config('constants.countries') );
 
         if (in_array($country, $supported_countries)) {
@@ -66,14 +66,13 @@ class HomeController extends Controller
 
         $productModels = ProductModel::all();
 
-        $country = session('country', 'hk');
+        $country = 'mu';
         $serviceCenters = ServiceCenter::whereCountry($country)->get();
 
         return view('pages.support', compact('productModels', 'serviceCenters'));
     }
 
     public function handleSupportRedirect(Request $request) {
-
         $this->validate($request, [
             'product_number'   => 'required',
 //            'product_model'  => 'required',

@@ -32,9 +32,6 @@ Route::get('/us', function(){
     return redirect('https://avita-americas.com/');
 });
 
-Route::get('/in', function(){
-    return redirect('http://www.google.com');
-});
 
 // User Login
 Route::get('/member/profile', 'MemberController@showProfile')->middleware(['auth'])->name('member.profile');
@@ -78,9 +75,9 @@ Route::post('/app/{app_code}/approve',  'Integration\ApplicationController@handl
 
 if ( Request::segment(1) != 'admin') {
 
-    Route::group(['prefix' => '{country}',  'middleware' => 'country' ], function() {
+   // Route::group(['prefix' => '{country}',  'middleware' => 'country' ], function() {
 
-        Route::get('/', 'HomeController@getHome');
+        Route::get('/', 'HomeController@redirectToHome');
 
         // Pages
         Route::get('/repair_tnc', 'HomeController@getRepairTerms')->name('repair_tnc');
@@ -102,7 +99,7 @@ if ( Request::segment(1) != 'admin') {
         Route::get('/product/{slug}/support', 'ProductsController@showProductSupport')->name('product.support');
         Route::get('/product/{slug}/where_to_buy', 'ProductsController@whereToBuy')->name('product.map');
 
-    });
+    //});
 
 }
 

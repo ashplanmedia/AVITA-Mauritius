@@ -57,7 +57,7 @@
     <script>
         $('#news-month-option').change( function(event) {
 
-            window.location = '<?php echo e($country); ?>/news/'+ $(this).val() ;
+            window.location = 'news/'+ $(this).val() ;
         })
     </script>
 <?php $__env->stopSection(); ?>

@@ -66,11 +66,9 @@
 
                 <div class="container">
 
-                    @if ( $country == 'tw' )
-                        <div class="h3 section-title mb-3 ls-0">維修中心</div>
-                    @else
+                    
                         <div class="h3 section-title mb-3 ls-0">@lang('site.support_title_2')</div>
-                    @endif
+                    
 
 
                     @foreach( $serviceCenters as $center )
@@ -125,7 +123,7 @@
 
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyH7LRLn_rALNKkeh2SZx2_NpketEsmGA&callback=initMap"></script>
 
-    <script src="/js/support.js"></script>
+    <script src="../js/support.js"></script>
 
 
 

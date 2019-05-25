@@ -12,7 +12,9 @@ function bytesToHuman($bytes, $precision = 2)
 }
 
 function enabled_countries(  ) {
-    return ['hk', 'sg', 'tw', 'my', 'cn', 'th', 'vn', 'in', 'id', 'ph', 'uk'];
+    //return ['hk', 'sg', 'tw', 'my', 'cn', 'th', 'vn', 'in', 'id', 'ph', 'uk', 'mu'];
+	
+	return ['mu'];
 }
 
 function supported_language( $country ) {

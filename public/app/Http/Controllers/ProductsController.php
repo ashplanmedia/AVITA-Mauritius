@@ -66,7 +66,6 @@ class ProductsController extends Controller
     }
 
     public function showProductSpec( $slug) {
-		echo "ffff"; die;
 		$country = 'mu';
         $product = $this->productFromURL($country, $slug);
 
@@ -111,8 +110,8 @@ class ProductsController extends Controller
         return view('product.support', compact('product', 'slug', 'json_data'));
     }
 
-    public function whereToBuy($country, $slug){
-
+    public function whereToBuy($slug){
+		$country = "mu";
         $product = Product::where('short_code', $slug)->first();
 
         if ( !$product ) {

@@ -53,11 +53,6 @@
 					<div class="map-search col-12 col-lg-4 push-lg-8 p-4">
 						<div class="lead">@lang('site.shops_near_you')</div>
 
-						@if( $country == 'hk')
-							<p class="mt-4">
-								@lang('site.experience_liber125_here')
-							</p>
-						@endif
 
 						<div class="input-group py-4">
 							<input type="text" name="search" class="form-control search-result-input search-input" id="map-search" required="">

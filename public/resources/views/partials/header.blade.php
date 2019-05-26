@@ -109,7 +109,7 @@
                     <a class="nav-link" href="{{ route('news') }}">@lang('site.news')</a>
                 </li>
 
-                @if( $shop_count > 0 )
+                @if( $shop_count >= 0 )
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('product.map', ['liber']) }}">@lang('site.header_where_to_buy')</a>
                     </li>

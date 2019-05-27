@@ -161,7 +161,7 @@ class HomeController extends Controller
 
         $data = [
             'status' => 'success',
-            'message' => '謝謝你的訂閱'
+            'message' => 'Thank You For Subscribing'
         ];
 
         return response( $data );

@@ -149,7 +149,7 @@ class HomeController extends Controller
     }
 
     public function handleSubscription(Request $request) {
-
+$country = 'mu';
         echo "handleSubscription";
 
         $this->validate($request, ['subscription_email' => 'required|email']);

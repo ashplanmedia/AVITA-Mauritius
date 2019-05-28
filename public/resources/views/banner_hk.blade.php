@@ -9,14 +9,14 @@
                         <a href="{{ route('product.overview', 'magus12-2in1-laptop') }}">
                             @if( App::isLocale('en') )
                                 <div class="banner-bg hidden-sm-down"
-                                     style="background-image: url('/images/banner/magus_1920x720.jpg')"></div>
+                                     style="background-image: url('/images/banner/magus_web.jpg')"></div>
                             	<div class="banner-bg hidden-md-up"
-                                 style="background-image: url('/images/banner/magus_375x600.jpg')"></div>
+                                 style="background-image: url('/images/banner/magus_mob.jpg')"></div>
                             @else
                                 <div class="banner-bg hidden-sm-down"
-                                     style="background-image: url('/images/banner/magus_1920x720-c.jpg')"></div>
+                                     style="background-image: url('/images/banner/magus_web.jpg')"></div>
                                	<div class="banner-bg hidden-md-up"
-                                 style="background-image: url('/images/banner/magus_375x600-c.jpg')"></div>
+                                 style="background-image: url('/images/banner/magus_mob.jpg')"></div>
 
                             @endif
                         </a>
@@ -31,13 +31,13 @@
                         <a href="{{ route('product.overview', ['liber12']) }}">
                             @if( App::isLocale('en') )
                                 <div class="banner-bg hidden-sm-down"
-                                     style="background-image: url('/images/banner/AVITA-KV_001_green_web_banners_1920x720_v02-en.jpg')"></div>
+                                     style="background-image: url('/images/banner/Web_Banner.png')"></div>
                             @else
                                 <div class="banner-bg hidden-sm-down"
-                                     style="background-image: url('/images/banner/AVITA-KV_001_green_web_banners_1920x720_v02-tc.jpg')"></div>
+                                     style="background-image: url('/images/banner/Web_Banner.png')"></div>
                             @endif
                             <div class="banner-bg hidden-md-up"
-                                 style="background-image: url('/images/banner/banner3_mob.jpg')"></div>
+                                 style="background-image: url('/images/banner/Mobile_Banner.png')"></div>
                         </a>
                     </div>
                 </div>

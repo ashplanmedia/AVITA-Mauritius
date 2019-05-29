@@ -131,8 +131,7 @@
 
 @section('js')
 
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDkjCWGYO6wojvQEwcNm09P_H7XeYoji9I&callback=initMap"></script>
-    <script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDkjCWGYO6wojvQEwcNm09P_H7XeYoji9I&callback=initMap"  type="text/javascript"></script>    <script>
         var infowindows = [];
         var markers = [];
 

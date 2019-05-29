@@ -131,8 +131,7 @@
 
 @section('js')
 
-    <script type="text/javascript" src="//api.map.baidu.com/api?v=2.0&ak=P61iGGjjd34mepiN8M7nQxZ01WLxf0OH"></script>
-
+ <script type="text/javascript" src="//api.map.baidu.com/api?v=2.0&ak=gLcbtpgGiUbFbe4DE6I0Ewg57gOIMkU1"></script>
     <script>
         var infowindows = [];
         var markers = [];

@@ -131,7 +131,7 @@
 
 @section('js')
 
- <script type="text/javascript" src="//api.map.baidu.com/api?v=2.0&ak=gLcbtpgGiUbFbe4DE6I0Ewg57gOIMkU1"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDkjCWGYO6wojvQEwcNm09P_H7XeYoji9I&callback=initMap"></script>
     <script>
         var infowindows = [];
         var markers = [];

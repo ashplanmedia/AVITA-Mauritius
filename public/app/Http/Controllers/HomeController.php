@@ -157,7 +157,7 @@ class HomeController extends Controller
         $sub->createUser($email);
         $data = [
             'status' => 'success',
-            'message' => 'Thanks for Subscribing, we will connect you shortly.'
+            'message' => 'Thank you for your subscription!'
         ];
         return response( $data );
         

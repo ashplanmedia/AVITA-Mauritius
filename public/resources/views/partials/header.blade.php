@@ -58,22 +58,18 @@
 
                                             
 
-                                            @if ($HAVE_LIBER_U)
 
                                             <li class="nav-item">
                                                 <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['liber-new-generation']) }}">LIBER New Generation</a>
                                             </li>
 
-                                            @else
 
-                                            <li class="nav-item">
+                                          <!---  <li class="nav-item">
                                                 <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['liber']) }}">LIBER Series 13.3" & 14"</a>
                                             </li>
+                                            ----->
 
-                                            @endif
 
-                                        @endif
-                                        @if ($HAVE_MAGUS)
 
                                             <li class="nav-item">
                                                 <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', 'magus12-2in1-laptop') }}">@lang('magus.name')</a>

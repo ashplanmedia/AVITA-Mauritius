@@ -17,7 +17,7 @@
                 <ul class="d-flex flex-column list-inline">
                     {{-- <li class="list-inline-item py-3 mr-0 text-center" style="font-size: 1.5em;">@lang('site.global_asia')</li> --}}
                     <li class="list-inline-item p-1 mr-0">
-                        <a href="{{ route('country.switch', ['country' =>'mu', 'lang' => 'en']) }}" class="pl-5 py-2">Mauritius</a>
+                        <a href="/" class="pl-5 py-2">Mauritius</a>
                     </li>
 					<li class="list-inline-item p-1 mr-0">
                         <a href="https://www.avita.com/hk" class="pl-5 py-2">Hong Kong (English)</a>

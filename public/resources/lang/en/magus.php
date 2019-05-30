@@ -21,7 +21,7 @@ return [
                     <li>Windows is either registered trademark or trademark of Microsoft Corporation in the United States and/or other countries.</li>
                     <li>Battery life will vary depending on various factors including product model, configuration, loaded applications, features, use, wireless functionality, and power management settings. The maximum capacity of the battery will naturally decrease with time and usage.</li>
 ',
-    'name'               			=> 'AVITA MAGUS 12.2" 2-in-1 Laptop',
+    'name'               			=> 'MAGUS 12.2" 2-in-1 Laptop',
     'os'               				=> 'Operating System',
     'cpu'               			=> 'CPU',
     'dis'               			=> 'Display',

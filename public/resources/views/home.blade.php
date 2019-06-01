@@ -73,7 +73,7 @@
                 </div>
             </div>
         </form>
-        <p style="text-align: center;"><a href="/Avita-Brochure.pdf" target="_blank" download="/Avita-Mauritius-Brochure.pdf"><button class="btn btn-primary btn-lg " type="button">Download Brochure </button></a></p>
+        <p style="text-align: center;"><a href="/Avita-Mauritius-Brochure.pdf" target="_blank" download="/Avita-Mauritius-Brochure.pdf"><button class="btn btn-primary btn-lg " type="button">Download Brochure </button></a></p>
     </section>
 
 @endsection

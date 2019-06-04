@@ -53,7 +53,7 @@
     @if( $ga_code )
 
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ $ga_code }}"></script>
-    <script>
+    <script defer="defer">
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
@@ -64,7 +64,7 @@
     @endif
 
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    <script defer="defer">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
             j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
@@ -77,7 +77,7 @@
     <!-- End Google Tag Manager (noscript) -->
 
     <!-- Facebook Pixel -->
-    <script>
+    <script defer="defer">
         !function(f,b,e,v,n,t,s)
         {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
             n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -126,11 +126,11 @@
 
 
 
-<script type="text/javascript" src="{{ asset('js/vendor.js') }}"></script>
-<script type="text/javascript" src="{{ asset("js/demo.js") }}"></script>
+<script defer="defer" type="text/javascript" src="{{ asset('js/vendor.js') }}"></script>
+<script defer="defer" type="text/javascript" src="{{ asset("js/demo.js") }}"></script>
 
 <!-- Facebook API -->
-<script>
+<script defer="defer">
     window.fbAsyncInit = function() {
         FB.init({
             appId            : '{{ env('FACEBOOK_CLIENT_ID') }}',
@@ -155,14 +155,14 @@
 
 
 <!-- Google Code for Remarketing Tag -->
-<script type="text/javascript">
+<script defer="defer" type="text/javascript">
     /* <![CDATA[ */
     var google_conversion_id = 830592061;
     var google_custom_params = window.google_tag_params;
     var google_remarketing_only = true;
     /* ]]> */
 </script>
-<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+<script defer="defer" type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
 </script>
 <noscript>
     <div style="display:inline;">

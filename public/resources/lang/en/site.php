@@ -84,7 +84,7 @@ return [
     'contactus_operating'           => 'Operating hours',
     'ccontactus_findus'             => 'Find Us',
     'search_result_title'           => 'Search Result',
-
+    'contactus_email'               => 'Support Email:
     // chinese language only, awaiting for the translation
 
     'product_support_1'             =>  'Driver & Tools',

@@ -24,7 +24,7 @@
 
                                 <b>@lang('site.contactus_operating')</b><br>
                                 Monday to Friday: 09:00-18:00
-                                
+                                <br>
                                 <b>@lang('site.contactus_email')</b><br>
                                         mu_support@avita.com
                                     </div>

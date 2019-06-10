@@ -39,9 +39,7 @@
                         </div>
                         <div class="d-flex flex-column ml-5 ml-md-0 small-lsm-little">
 
-                            @if( $shop_count > 0 )
                                 <a href="{{ route('product.map', ['liber']) }}" class="my-1">@lang('site.header_where_to_buy')</a>
-                            @endif
 
                             @if( $storeURL )
                                 <a class="my-1" target="_blank" href="{{ $storeURL }}">@lang('site.header_store')</a>

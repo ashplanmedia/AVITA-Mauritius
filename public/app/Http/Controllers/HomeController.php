@@ -131,9 +131,9 @@ class HomeController extends Controller
 
     public function getRepairTerms( ){
 
-       $title = __('site.footer_repair_tnc');
+        /*   $title = __('site.footer_repair_tnc');
 
-    /*    $content =  null;
+    $content =  null;
 
        $country = 'mu';
        $locale = app()->getLocale();
@@ -145,8 +145,16 @@ class HomeController extends Controller
         } else {
             return view('pages.terms', ['title' => $title, 'content' => 'Content not found.']);
         }
-*/
-	            return view('pages.terms',['title' => $title]);
+*/    
+	    $locale = app()->getLocale();
+        if ( $locale == 'id' ) {
+            $view_name = 'pages.terms_and_conditions_id';
+        } elseif ( $locale == 'th')  {
+            $view_name = 'pages.terms_and_conditions_thai';
+        } else {
+            $view_name = 'pages.terms_and_conditions';
+        }
+        return view($view_name);
 
 	    
     }

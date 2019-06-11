@@ -27,11 +27,9 @@
                 <li class="nav-item"><a class="nav-link py-1" href="{{ route('product.spec', 'liber') }}">@lang('site.productnav_spec')</a></li>
                 <li class="nav-item"><a class="nav-link py-1" href="{{ route('product.support', 'liber') }}">@lang('site.productnav_support')</a></li>
 
-                @if( $shop_count > 0 )
                     <li class="nav-item">
                         <a class="nav-link py-1" href="{{ route('product.map', 'liber') }}">@lang('site.productnav_wheretobuy')</a>
                     </li>
-                @endif
             </ul>
         </div>
     </div>

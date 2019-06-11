@@ -131,9 +131,9 @@ class HomeController extends Controller
 
     public function getRepairTerms( ){
 
-     /*   $title = __('site.footer_repair_tnc');
+       $title = __('site.footer_repair_tnc');
 
-        $content =  null;
+    /*    $content =  null;
 
        $country = 'mu';
        $locale = app()->getLocale();
@@ -146,7 +146,7 @@ class HomeController extends Controller
             return view('pages.terms', ['title' => $title, 'content' => 'Content not found.']);
         }
 */
-	            return view('pages.terms');
+	            return view('pages.terms'['title' => $title]);
 
 	    
     }

@@ -45,18 +45,18 @@
                                 <div class="dropdown">
                                     <ul class="list-unstyled">
 
-                                        @if(!$HAVE_LIBER_12)
 
                                             <li class="nav-item">
                                                 <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['liber']) }}">LIBER Series</a>
                                             </li>
-                                        @else
+                                        @if(!$HAVE_LIBER_12)
 
                                             <li class="nav-item">
                                                 <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['liber12']) }}">LIBER Series 12.5"</a>
                                             </li>
 
-                                            
+                                         @else
+
 
 
                                             <li class="nav-item">

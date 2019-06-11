@@ -145,7 +145,7 @@ class HomeController extends Controller
             return view('pages.terms', ['title' => $title, 'content' => 'Content not found.']);
         }
 	*/
-	            return view('pages.terms', ['title' => $title]);
+	            return view('pages.repair_tnc', ['title' => $title]);
 
 	    
 

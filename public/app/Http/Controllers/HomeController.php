@@ -136,9 +136,7 @@ class HomeController extends Controller
         $content =  null;
 
         $country = session('country');
-        //$locale = \App::getLocale();
-	$locale = App::getLocale();
-
+        $locale = \App::getLocale();
         $repair_term = RepairTerm::whereLocale($locale)->whereCountry($country)->first();
 
         if ( $repair_term ){

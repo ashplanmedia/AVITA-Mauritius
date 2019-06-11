@@ -131,12 +131,12 @@ class HomeController extends Controller
 
     public function getRepairTerms( ){
 
-        $title = __('site.footer_repair_tnc');
+     /*   $title = __('site.footer_repair_tnc');
 
         $content =  null;
 
-        $country = 'mu';
-        $locale = app()->getLocale();
+       $country = 'mu';
+       $locale = app()->getLocale();
 
         $repair_term = RepairTerm::whereLocale($locale)->whereCountry($country)->first();
 
@@ -145,7 +145,10 @@ class HomeController extends Controller
         } else {
             return view('pages.terms', ['title' => $title, 'content' => 'Content not found.']);
         }
+*/
+	            return view('pages.terms');
 
+	    
     }
 
       public function handleSubscription(Request $request) {

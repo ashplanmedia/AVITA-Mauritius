@@ -131,8 +131,8 @@ class HomeController extends Controller
 
     public function getRepairTerms( ){
 
-    /*  $title = __('site.footer_repair_tnc');
-
+     $title = __('site.footer_repair_tnc');
+/*
         $content =  null;
 
         $country = session('country');

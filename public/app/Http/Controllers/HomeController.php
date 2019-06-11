@@ -131,7 +131,7 @@ class HomeController extends Controller
 
     public function getRepairTerms( ){
 
-      $title = __('site.footer_repair_tnc');
+    /*  $title = __('site.footer_repair_tnc');
 
         $content =  null;
 
@@ -144,6 +144,10 @@ class HomeController extends Controller
         } else {
             return view('pages.terms', ['title' => $title, 'content' => 'Content not found.']);
         }
+	*/
+	            return view('pages.terms');
+
+	    
 
 	    
     }

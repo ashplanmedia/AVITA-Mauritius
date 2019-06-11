@@ -131,12 +131,12 @@ class HomeController extends Controller
 
     public function getRepairTerms( ){
 
-     $title = __('site.footer_repair_tnc');
+      $title = __('site.footer_repair_tnc');
 
-      $content =  null;
+        $content =  null;
 
-       $country = 'mu';
-       $locale = app()->getLocale();
+        $country = session('country');
+        $locale = \App::getLocale();
 
         $repair_term = RepairTerm::whereLocale($locale)->whereCountry($country)->first();
 

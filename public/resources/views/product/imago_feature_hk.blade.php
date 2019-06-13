@@ -233,13 +233,11 @@
 					@foreach( __('site.imago_retails') as $shop_info )
                     <div class="list-item my-1">
                         <i class="fa fa-map icon mr-2" style="width: 16px;"></i>
-                        //<span>{{ $shop_info['address'] }}</span>
 			<span>Royal Road, Plaines Magnien, Mauritius Postal Code: 51509 </span>
 
                     </div>
                     <div class="list-item my-1">
                         <i class="fa fa-phone icon mr-2" style="width: 16px;"></i>
-                        //<span>{{ $shop_info['phone'] }}</span>
 			<span>5440-1500/5448-1500 </span>
 
                     </div>

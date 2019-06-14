@@ -2,6 +2,7 @@
 
 return [
     // universal
+    'mouse'                         => 'UBIQUE MOUSE'
     'products'                      => 'Products',
     'news'                          => 'What\'s New',
     'service'                       => 'Service',

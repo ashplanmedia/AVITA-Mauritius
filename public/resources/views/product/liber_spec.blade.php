@@ -508,7 +508,7 @@
                     </div>
                 </div>
                 ----->
-                <div class="tab-pane" id="spec-3" role="tabpanel">
+                <div class="tab-pane active" id="spec-5" role="tabpanel">
                     <div class="container">
 
                         <div class="logo-wrapper d-flex px-3 mt-4">

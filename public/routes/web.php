@@ -33,7 +33,7 @@ Route::get('/us', function(){
 });
 
 Route::get('/accessories/mouse', function(){
-    return view('product.mouse');
+    return view('products.mouse');
 });
 
 

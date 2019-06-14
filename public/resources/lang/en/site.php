@@ -2,7 +2,8 @@
 
 return [
     // universal
-    'mouse'                         => 'UBIQUE MOUSE'
+    'accessories'                   =>'Accessories',
+    'mouse'                         => 'UBIQUE MOUSE',
     'products'                      => 'Products',
     'news'                          => 'What\'s New',
     'service'                       => 'Service',

@@ -64,7 +64,7 @@ return [
 
     'productnav_overview'           => 'Overview',
     'productnav_overview_12'        => 'Overview 12.5"',
-    'productnav_overview_13'        => 'Overview 13.3" &amp; 14"',
+    'productnav_overview_13'        => 'Overview 14"',
     'productnav_overview_u_series'  => 'Overview AVITA LIBER 13.3" & 14" New Generation',
 
     'productnav_spec'               => 'Tech Spec',

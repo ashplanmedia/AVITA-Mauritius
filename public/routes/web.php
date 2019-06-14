@@ -32,6 +32,10 @@ Route::get('/us', function(){
     return redirect('https://avita-americas.com/');
 });
 
+Route::get('/accessories/mouse', function(){
+    return view('product.mouse');
+});
+
 
 // User Login
 Route::get('/member/profile', 'MemberController@showProfile')->middleware(['auth'])->name('member.profile');

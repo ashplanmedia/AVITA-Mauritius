@@ -411,7 +411,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="tab-pane {{ $HAVE_LIBER_U ? 'active' : '' }}" id="spec-4" role="tabpanel">
+               <!--- <div class="tab-pane {{ $HAVE_LIBER_U ? 'active' : '' }}" id="spec-4" role="tabpanel">
                     <div class="container">
 
                         <div class="logo-wrapper d-flex px-3 mt-4">
@@ -507,6 +507,7 @@
                         </ul>
                     </div>
                 </div>
+                ---->
                 <div class="tab-pane" id="spec-5" role="tabpanel">
                     <div class="container">
 

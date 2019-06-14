@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-    @lang('title.Accessories')
+    @lang('title.mouse')
 @stop
 
 

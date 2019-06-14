@@ -71,9 +71,7 @@
 
                     
                         <div class="h3 section-title mb-3 ls-0">@lang('site.support_title_2')</div>
-                    
-
-
+   
                     @foreach( $serviceCenters as $center )
                         @component('pages._support_center', ['center' => $center])
                         @endcomponent

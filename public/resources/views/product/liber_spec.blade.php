@@ -60,7 +60,7 @@
 
                         @endif
 
-                        <a class="col text-center nav-link " data-toggle="tab" href="#spec-3" role="tab">
+                     <!---   <a class="col text-center nav-link " data-toggle="tab" href="#spec-3" role="tab">
                             <div class="spec-item-name mb-4"><div class="d-sm-block">AVITA LIBER</div><div class="d-sm-block">(12.5-inch) @if( !$HAVE_LIBER_12) / @lang('site.coming_soon') @endif</div></div>
                             <img class="hidden-sm-down" src="/images/liber/12/pink.png">
                             <ul class="list-unstyled spec-color-list d-flex flex-wrap align-items-center justify-content-center mt-4 ">
@@ -71,9 +71,9 @@
                                 <li style="background-color: #BAA1B9" data-image="/images/liber/12/purple.png"></li>
                             </ul>
                         </a>
-
+            --->
                         @if (!$HAVE_LIBER_U)
-
+                <!-----
                         <a class="col text-center nav-link active" data-toggle="tab" href="#spec-1" role="tab">
                             <div class="spec-item-name mb-4"><div class="d-sm-block">AVITA LIBER</div><div class="d-sm-block">(13.3-inch)</div></div>
                             <img class="hidden-sm-down" src="/images/liber/13/lightpurple.png">
@@ -94,6 +94,7 @@
                                 <li style="background-color: #7d7e82" data-image="/images/liber/13/silver.png"></li>
                             </ul>
                         </a>
+                        ---->
                         <a class="col text-center nav-link" data-toggle="tab" href="#spec-2" role="tab">
                             <div class="spec-item-name mb-4"><div class="d-sm-block">AVITA LIBER</div><div class="d-sm-block">(14-inch)</div></div>
                             <img class="hidden-sm-down" src="/images/liber/14/lightpurple.png">

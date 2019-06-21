@@ -28,7 +28,7 @@
 
 
                             <div class="mb-2"><b>Address :</b><br>
-                                TechStation Ltd<br/>Physical Address: 7, Avenue Des Orchidées,72238 Quatre-Bornes</div>
+                                TechStation Ltd<br/> 7, Avenue Des Orchidées,72238 Quatre-Bornes</div>
                             <h2 class="contact_us_title">For Service :</h2>
                             <div class="mb-2">Toll Free : 1800-22-3902</div>
 

@@ -34,8 +34,7 @@
 
                         </div>
                         <div class="col-sm-6">
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14955.323503689038!2d57.6662783!3d-20.4310398!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf803365f5f890aa4!2sDNS+TECHNOLOGIES+LTD!5e0!3m2!1sen!2sin!4v1560275768835!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                        </div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3742.88146815096!2d57.48051591494494!3d-20.263750054007247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x217c5b40882cf0ab%3A0x48041307c14d6ae1!2s7+Ave+Des+Orchidees%2C+Quatre+Bornes%2C+Mauritius!5e0!3m2!1sen!2sin!4v1561119288837!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>                        </div>
                     </div>
                 </div>
 

@@ -18,17 +18,17 @@
                         <div class="col-sm-6">
                             <h2 class="contact_us_title">Sales Enquiry :</h2>
 
-                            <div class="mb-2">+230 5448 1500</div>
+                            <div class="mb-2">+230 4633 869</div>
 
                             <div class="mb-2"><b>Email :</b><br>
-                                sales@dnstechnologies.mu</div>
+                                ssaga@techstation.mu</div>
 
                             <div><b>@lang('site.contactus_operating') :</b><br>
                                 Monday to Friday : 09:30 am -16:30 pm</div>
 
 
                             <div class="mb-2"><b>Address :</b><br>
-                                Royal Road Plaines-Magnien Postal Code 51509, Plaine Magnien, Mauritius</div>
+                                TechStation Ltd<br/>Physical Address: 7, Avenue Des Orchidées,72238 Quatre-Bornes</div>
                             <h2 class="contact_us_title">For Service :</h2>
                             <div class="mb-2">Toll Free : 1800-22-3902</div>
 

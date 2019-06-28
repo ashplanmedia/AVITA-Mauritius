@@ -55,7 +55,7 @@
                                 </div>
                             </form>
                               <br/>
-                        <img src="/images/contact.png" style="width:350px;">
+                      <!--  <img src="/images/contact.png" style="width:350px;">-->
 
                         </div>
                     </div>

@@ -2,6 +2,7 @@
 
 return [
     // universal
+    'GLOBAL_MU'                     => 'Mauritius',
     'accessories'                   =>'Accessories',
     'mouse'                         => 'UBIQUE MOUSE',
     'products'                      => 'Products',

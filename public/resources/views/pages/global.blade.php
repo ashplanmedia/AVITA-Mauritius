@@ -19,14 +19,14 @@
                     <li class="list-inline-item p-1 mr-0">
                         <a href="/" class="pl-5 py-2">Mauritius</a>
                     </li>
-					<li class="list-inline-item p-1 mr-0">
+			<li class="list-inline-item p-1 mr-0">
                         <a href="https://www.avita.com/hk" class="pl-5 py-2">Hong Kong (English)</a>
                     </li>
                     <li class="list-inline-item p-1 mr-0">
                         <a href="https://avita.com/country/hk?lang=tc" class="pl-5 py-2">香港 (繁體中文)</a>
                     </li>
                     <li class="list-inline-item p-1 mr-0">
-                        <a href="https://avita.com/country/sc?lang=tc" class="pl-5 py-2">@lang('site.global_cn')</a>
+                        <a href="{{ route('https://www.avita.com', ['contry' => 'cn','lang' => 'sc']) }}" class="pl-5 py-2">@lang('site.global_cn')</a>
                     </li>
                     <li class="list-inline-item p-1 mr-0">
                         <a href="https://avita.com/country/tw?lang=tc" class="pl-5 py-2">@lang('site.global_tw')</a>

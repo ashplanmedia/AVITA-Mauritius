@@ -89,11 +89,11 @@
                             <a class="col-6 px-0" href="/entry"><i class="fa fa-globe mr-2" aria-hidden="true"></i><span class="">MAURITIUS</span></a>
                         </div>
 
-                      <!--    <div class="col-12 info-lang w-100 px-0 hidden-md-up pb-sm-2">
+                      <div class="col-12 info-lang w-100 px-0 hidden-md-up pb-sm-2">
                             <a class="col-6 px-0" href="{{ route('country.picker') }}"><i class="fa fa-globe mr-2" aria-hidden="true"></i><span class="pr-2">{{ strtoupper( __("site.global_{$country}")) }}</span></a>
 
 
-                        </div>-->
+                        </div>
 
                         <div class="info-copyright w-100"><a target="_blank" href="http://www.nexstgo.com">©Nexstgo Company Ltd.</a> All rights reserved.</div>
                     </div>

@@ -21,7 +21,7 @@
                                 <div class="my-4 mx-2 ls-1">@lang('site.login_reg_content_4')</div>
                             </div>
 
-                            <a class="btn btn-register btn-opacity my-5 px-4 ls-2" href="{{ route('register', [ 'source' => Request::get('source')]) }}">@lang('site.login_reg_btn')</a>
+                            <a class="btn btn-register btn-opacity my-5 px-4 ls-2" href="https://avita.com/register?">@lang('site.login_reg_btn')</a>
                         </div>
                     </div>
                     <div class="col-12 col-md-6">

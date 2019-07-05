@@ -23,13 +23,13 @@
                         <a href="https://www.avita.com/hk" class="pl-5 py-2">Hong Kong (English)</a>
                     </li>
                     <li class="list-inline-item p-1 mr-0">
-                        <a href="https://avita.com/country/hk?lang=tc" class="pl-5 py-2">香港 (繁體中文)</a>
+                        <a href="https://avita.com/hk" class="pl-5 py-2">香港 (繁體中文)</a>
                     </li>
                     <li class="list-inline-item p-1 mr-0">
-                        <a href="https://avita.com/country/sc?lang=tc" class="pl-5 py-2">@lang('site.global_cn')</a>
+                        <a href="https://avita.com/country/sc" class="pl-5 py-2">@lang('site.global_cn')</a>
                     </li>
                     <li class="list-inline-item p-1 mr-0">
-                        <a href="https://avita.com/country/tw?lang=tc" class="pl-5 py-2">@lang('site.global_tw')</a>
+                        <a href="https://avita.com/country/tw" class="pl-5 py-2">@lang('site.global_tw')</a>
                     </li>
                     <li class="list-inline-item p-1 mr-0">
                         <a href="https://www.avita.com/sg" class="pl-5 py-2">Singapore</a>
@@ -41,7 +41,7 @@
                         <a href="https://www.avita.com/th" class="pl-5 py-2">Thailand</a>
                     </li>
                     <li class="list-inline-item p-1 mr-0">
-                        <a href="https://avita.com/country/th?lang=tc" class="pl-5 py-2">ประเทศไทย</a>
+                        <a href="https://avita.com/country/th" class="pl-5 py-2">ประเทศไทย</a>
                     </li>
                     <li class="list-inline-item p-1 mr-0">
                         <a href="https://www.avita.com/vn" class="pl-5 py-2">Vietnam</a>

@@ -92,7 +92,7 @@ $productSeriesField.change(function() {
     var select = $marketingNumberField;
 
     if ( $(this).val() ) {
-        var url = "https://nexstgo-web-staging.azurewebsites.net/api/product/marketing-numbers?country=mu&brand=avita&series=liber";
+        var url = "https://asp.avita.global/api/product/marketing-numbers?country=mu&brand=avita&series=liber";
 
         $.getJSON( url, {
             series: $(this).val()
@@ -135,7 +135,7 @@ $marketingNumberField.change(function() {
     var select = $productNumberField;
 
     if ( $(this).val() ) {
-        var url = "https://nexstgo-web-staging.azurewebsites.net/api/product/product-models?country=mu&brand=avita&marketing_number=NS13A1";
+        var url = "https://asp.avita.global/api/product/product-models?country=mu&brand=avita&marketing_number=NS13A1";
 
         $.getJSON( url, {
             marketing_number: $(this).val()

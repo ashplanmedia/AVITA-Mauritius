@@ -27,7 +27,7 @@
             </div>
         </div>
  <div class="col-12 col-md-5">
-        <div class="map-wrap embed-responsive embed-responsive-16by9">
+        <div class="map-wrap embed-responsive embed-responsive-19by9">
             <div id="gmap-embed" class="embed-responsive-item google_map" data-lng="{{$center->longitude}}" data-lat="{{$center->latitude}}">
                </div>
             </div>

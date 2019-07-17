@@ -26,14 +26,13 @@
                 <div class="col-12 col-sm-8 col-md-8 col-lg-9"><a href="mailto:{{ $center->email }}">{{ $center->email }}</a></div>
             </div>
         </div>
-
-        <div class="col-12 col-md-5">
-            <div class="map-wrap embed-responsive embed-responsive-16by9">
-                <div id="gmap-embed" class="embed-responsive-item google_map" data-lng="{{$center->longitude}}" data-lat="{{$center->latitude}}">
-                </div>
+ <div class="col-12 col-md-5">
+        <div class="map-wrap embed-responsive embed-responsive-16by9">
+            <div id="gmap-embed" class="embed-responsive-item google_map" data-lng="{{$center->longitude}}" data-lat="{{$center->latitude}}">
+               </div>
             </div>
         </div>
-
+  <hr/>
     </div>
 
 

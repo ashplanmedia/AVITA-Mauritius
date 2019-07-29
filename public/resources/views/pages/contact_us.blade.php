@@ -21,7 +21,7 @@
                             <div class="mb-2">+230 4633 869</div>
 
                             <div class="mb-2"><b>Email :</b><br>
-                                ssaga@techstation.mu</div>
+                                info@techstation.mu</div>
 
                             <div><b>@lang('site.contactus_operating') :</b><br>
                                 Monday to Friday : 09:30 am -16:30 pm</div>

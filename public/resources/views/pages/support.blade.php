@@ -104,9 +104,9 @@
                 var location = new google.maps.LatLng( data.lat, data.lng );
 
                 var map = new google.maps.Map(item, {
-                    zoom: 19,
-                    maxZoom: 17,
-                    minZoom: 21,
+                    zoom: 18,
+                    maxZoom: 18,
+                    minZoom: 18,
                     disableDefaultUI: true,
                     center: location,
                 });

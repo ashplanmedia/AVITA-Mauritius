@@ -29,9 +29,10 @@
 
                             <div class="mb-2"><b>Address :</b><br>
                                 TechStation Ltd<br/> 7, Avenue Des Orchidées, 72238 Quatre-Bornes</div>
-                            <h2 class="contact_us_title">For Service :</h2>
+                         <!---
+                          <h2 class="contact_us_title">For Service :</h2>
                             <div class="mb-2">Toll Free : 1800-22-3902</div>
-
+                          -------->
                         </div>
                         <div class="col-sm-6">
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3742.88146815096!2d57.48051591494494!3d-20.263750054007247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x217c5b40882cf0ab%3A0x48041307c14d6ae1!2s7+Ave+Des+Orchidees%2C+Quatre+Bornes%2C+Mauritius!5e0!3m2!1sen!2sin!4v1561119288837!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>                        </div>

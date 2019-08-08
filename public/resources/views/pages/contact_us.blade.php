@@ -24,7 +24,7 @@
                                 info@techstation.mu</div>
 
                             <div><b>@lang('site.contactus_operating') :</b><br>
-                                Monday to Friday : 09:30 am -16:30 pm</div>
+                                Monday to Friday : 8:30 to 17:00</div>
 
 
                             <div class="mb-2"><b>Address :</b><br>

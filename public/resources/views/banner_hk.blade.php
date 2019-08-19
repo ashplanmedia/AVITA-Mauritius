@@ -1,33 +1,11 @@
 <section class="top-nav-padding homepage-banner">
-
-    <div id="home_banner" class="carousel slide" data-ride="carousel" data-interval="0" data-pause="">
+ <div id="home_banner" class="carousel slide" data-ride="carousel" data-interval="0" data-pause="">
         <div class="carousel-inner" role="listbox">
 
             <div class="carousel-item active">
                 <div class="responsive-block">
                     <div class="banner-block responsive-item">
-                        <a href="{{ route('product.overview', 'magus12-2in1-laptop') }}">
-                            @if( App::isLocale('en') )
-                                <div class="banner-bg hidden-sm-down"
-                                     style="background-image: url('/images/banner/magus_1920x720.jpg')"></div>
-                            	<div class="banner-bg hidden-md-up"
-                                 style="background-image: url('/images/banner/magus_375x600.jpg')"></div>
-                            @else
-                                <div class="banner-bg hidden-sm-down"
-                                     style="background-image: url('/images/banner/magus_1920x720-c.jpg')"></div>
-                               	<div class="banner-bg hidden-md-up"
-                                 style="background-image: url('/images/banner/magus_375x600-c.jpg')"></div>
-
-                            @endif
-                        </a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="carousel-item">
-                <div class="responsive-block">
-                    <div class="banner-block responsive-item">
-                        <a href="{{ route('product.overview', ['liber12']) }}">
+<!---<a href="https://www.flipkart.com/search?q=avita+laptop&as=on&as-show=on&otracker=AS_Query_HistoryAutoSuggest_1_1&otracker1=AS_Query_HistoryAutoSuggest_1_1&as-pos=1&as-type=HISTORY&as-searchtext=a">-->
                             @if( App::isLocale('en') )
                                 <div class="banner-bg hidden-sm-down"
                                      style="background-image: url('/images/banner/AVITA-KV_001_green_web_banners_1920x720_v02-en.jpg')"></div>
@@ -36,7 +14,7 @@
                                      style="background-image: url('/images/banner/AVITA-KV_001_green_web_banners_1920x720_v02-tc.jpg')"></div>
                             @endif
                             <div class="banner-bg hidden-md-up"
-                                 style="background-image: url('/images/banner/banner3_mob.jpg')"></div>
+                                 style="background-image: url('/images/banner/banner3_mob.jpeg')"></div>
                         </a>
                     </div>
                 </div>
@@ -77,11 +55,9 @@
             <li data-target="#home_banner" data-slide-to="0" class="active"></li>
             <li data-target="#home_banner" data-slide-to="1"></li>
             <li data-target="#home_banner" data-slide-to="2"></li>
-            <li data-target="#home_banner" data-slide-to="3"></li>
         </ol>
     </div>
 </section>
-
 
 @section('css')
     <style type="text/css">

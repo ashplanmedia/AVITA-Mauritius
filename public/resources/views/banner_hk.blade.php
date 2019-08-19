@@ -43,16 +43,19 @@
                 </div>
             </div>
             
-              <div class="carousel-item">
+            
+       <div class="carousel-item">
                 <div class="responsive-block">
                     <div class="banner-block responsive-item d-flex align-items-center">
-                        <video class="leadin-video video-bgv2" muted playsinline>
-                            <source src="/videos/magus.mp4" type="video/mp4">
-                        </video>
+                       <video controls loop>
+                          <source src="/videos/magus.mp4" type="video/mp4">
+                            <source src="/videos/magus.ogg" type="video/ogg">
+                                      Your browser does not support the video tag.
+                            </video>
                     </div>
                 </div>
             </div>
-  
+            
         <ol class="carousel-indicators">
             <li data-target="#home_banner" data-slide-to="0" class="active"></li>
             <li data-target="#home_banner" data-slide-to="1"></li>

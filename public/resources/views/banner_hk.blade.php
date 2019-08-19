@@ -64,7 +64,7 @@
 
 @section('css')
     <style type="text/css">
-        #home_banner video{
+        #home_banner{
             position: absolute;
             -webkit-transform: translate(-50%,-50%);
             -ms-transform: translate(-50%,-50%);

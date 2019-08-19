@@ -46,7 +46,7 @@
               <div class="carousel-item">
                 <div class="responsive-block">
                     <div class="banner-block responsive-item d-flex align-items-center">
-                        <video class="leadin-video video-bgv2" controls autoplay>
+                        <video class="leadin-video video-bgv2" muted playsinline>
                             <source src="/videos/magus.mp4" type="video/mp4">
                         </video>
                     </div>
@@ -64,7 +64,7 @@
 
 @section('css')
     <style type="text/css">
-        #home_banner{
+        #home_banner video{
             position: absolute;
             -webkit-transform: translate(-50%,-50%);
             -ms-transform: translate(-50%,-50%);

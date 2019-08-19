@@ -46,7 +46,7 @@
               <div class="carousel-item">
                 <div class="responsive-block">
                     <div class="banner-block responsive-item d-flex align-items-center">
-                        <video class="leadin-video video-bgv2" muted playsinline autoplay="true">
+                        <video class="leadin-video video-bgv2" muted playsinline>
                             <source src="/videos/magus.mp4" type="video/mp4">
                         </video>
                     </div>
@@ -90,7 +90,7 @@
 
             clearTimeout( imageTimer );
 
-            $(this).find('video')[0].pause();
+          <!--- $(this).find('video')[0].pause(); ------>
 
             var new_video = $(e.relatedTarget).find('video')[0];
 

@@ -47,7 +47,7 @@
        <div class="carousel-item">
                 <div class="responsive-block">
                     <div class="banner-block responsive-item d-flex align-items-center">
-                       <video controls loop>
+                       <video autoplay muted loop >
                           <source src="/videos/magus.mp4" type="video/mp4">
                             <source src="/videos/magus.ogg" type="video/ogg">
                                       Your browser does not support the video tag.

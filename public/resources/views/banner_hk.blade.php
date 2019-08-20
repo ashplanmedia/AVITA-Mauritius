@@ -103,7 +103,7 @@
 
                 imageTimer = setTimeout( function( ){
                     $('#home_banner').carousel('next');
-                }, 5000 );
+                }, 10000 );
 
             }
         }).trigger('init');

@@ -44,17 +44,16 @@
             </div>
             
             
-       <div class="carousel-item">
+         <div class="carousel-item">
                 <div class="responsive-block">
                     <div class="banner-block responsive-item d-flex align-items-center">
-                       <video autoplay muted loop >
-                          <source src="/videos/magus.mp4" type="video/mp4">
-                            <source src="/videos/magus.ogg" type="video/ogg">
-                                      Your browser does not support the video tag.
-                            </video>
+                        <video class="leadin-video video-bgv2" controls autoplay>
+                            <source src="/videos/magus.mp4" type="video/mp4">
+                        </video>
                     </div>
                 </div>
             </div>
+
             
         <ol class="carousel-indicators">
             <li data-target="#home_banner" data-slide-to="0" class="active"></li>
@@ -63,7 +62,6 @@
         </ol>
     </div>
 </section>
-
 
 @section('css')
     <style type="text/css">
@@ -93,9 +91,9 @@
 
             clearTimeout( imageTimer );
 
-          <!--- $(this).find('video')[0].pause(); ------>
+         $(this).find('video')[3].play();
 
-            var new_video = $(e.relatedTarget).find('video')[0];
+            var new_video = $(e.relatedTarget).find('video')[3];
 
             if ( new_video ) {
                 new_video.play();
@@ -103,7 +101,7 @@
 
                 imageTimer = setTimeout( function( ){
                     $('#home_banner').carousel('next');
-                }, 10000 );
+                }, 5000 );
 
             }
         }).trigger('init');

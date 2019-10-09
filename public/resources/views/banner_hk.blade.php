@@ -31,13 +31,13 @@
                         <a href="{{ route('product.overview', ['liber12']) }}">
                             @if( App::isLocale('en') )
                                 <div class="banner-bg hidden-sm-down"
-                                     style="background-image: url('/images/banner/Web_Banner.png')"></div>
+                                     style="background-image: url('/images/banner/lifestyle_banner_web1.jpg')"></div>
                             @else
                                 <div class="banner-bg hidden-sm-down"
-                                     style="background-image: url('/images/banner/Web_Banner.png')"></div>
+                                     style="background-image: url('/images/banner/lifestyle_banner_web1.jpg')"></div>
                             @endif
                             <div class="banner-bg hidden-md-up"
-                                 style="background-image: url('/images/banner/Mobile_Banner.png')"></div>
+                                 style="background-image: url('/images/banner/lifestyle_banner_mob1.jpg')"></div>
                         </a>
                     </div>
                 </div>
